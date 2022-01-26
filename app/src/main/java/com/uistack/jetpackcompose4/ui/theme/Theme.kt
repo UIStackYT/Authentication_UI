@@ -36,7 +36,7 @@ fun JetpackCompose4Theme(
     val colors = LightColorPalette
 
     rememberSystemUiController().setSystemBarsColor(
-        color = PrimaryColor,
+        color = BackgroundColor,
         darkIcons = false
     )
 
