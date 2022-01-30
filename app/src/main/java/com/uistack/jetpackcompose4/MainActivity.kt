@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
+import com.uistack.jetpackcompose4.ui.screens.ForgotPasswordScreen
 import com.uistack.jetpackcompose4.ui.screens.LoginScreen
 import com.uistack.jetpackcompose4.ui.screens.RegisterScreen
 import com.uistack.jetpackcompose4.ui.theme.BackgroundColor
@@ -19,7 +20,8 @@ class MainActivity : ComponentActivity() {
             JetpackCompose4Theme {
                 Surface(color = BackgroundColor, modifier = Modifier.fillMaxSize()) {
 //LoginScreen()
-                    RegisterScreen()
+//                    RegisterScreen()
+                    ForgotPasswordScreen()
                 }
             }
         }

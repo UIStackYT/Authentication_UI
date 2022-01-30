@@ -39,7 +39,7 @@ fun RegisterScreen() {
             text = "CREATE YOUR ACCOUNT",
             textAlign = TextAlign.Center,
             fontFamily = Poppins,
-            color = RegisterSecondaryColor,
+            color = SecondaryColor,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 14.dp),
@@ -201,8 +201,8 @@ fun RegisterScreen() {
                 checked = checkBoxOne, onCheckedChange = { checkBoxOne = it },
                 colors = CheckboxDefaults.colors(
                     checkedColor = PrimaryColor,
-                    uncheckedColor = RegisterSecondaryColor,
-                    checkmarkColor = RegisterSecondaryColor
+                    uncheckedColor = SecondaryColor,
+                    checkmarkColor = SecondaryColor
                 ),
                 modifier = Modifier.clip(shape = Shapes.medium)
             )
@@ -210,7 +210,7 @@ fun RegisterScreen() {
             Text(
                 text = "Log In with Email",
                 fontFamily = Poppins,
-                color = RegisterSecondaryColor,
+                color = SecondaryColor,
                 fontSize = 12.sp
             )
         }
@@ -226,8 +226,8 @@ fun RegisterScreen() {
                 checked = checkBoxTwo, onCheckedChange = { checkBoxTwo = it },
                 colors = CheckboxDefaults.colors(
                     checkedColor = PrimaryColor,
-                    uncheckedColor = RegisterSecondaryColor,
-                    checkmarkColor = RegisterSecondaryColor
+                    uncheckedColor = SecondaryColor,
+                    checkmarkColor = SecondaryColor
                 ),
                 modifier = Modifier.clip(shape = Shapes.medium)
             )
@@ -235,7 +235,7 @@ fun RegisterScreen() {
             Text(
                 text = "Email me about special pricing",
                 fontFamily = Poppins,
-                color = RegisterSecondaryColor,
+                color = SecondaryColor,
                 fontSize = 12.sp
             )
         }
@@ -259,7 +259,7 @@ fun RegisterScreen() {
             Text(
                 text = "Sign Up with Email",
                 fontFamily = Poppins,
-                color = RegisterSecondaryColor,
+                color = SecondaryColor,
                 fontSize = 12.sp,
                 fontWeight = FontWeight.Bold
             )
@@ -274,7 +274,7 @@ fun RegisterScreen() {
             ) {
             Text(text = "Already have an account ? Sign In",
             fontFamily = Poppins,
-                color= RegisterSecondaryColor,
+                color= SecondaryColor,
                 fontSize = 12.sp,
                 fontWeight = FontWeight.SemiBold,
                 )
@@ -310,7 +310,7 @@ fun SocialMediaSignInButtons() {
                 Spacer(modifier = Modifier.width(10.dp))
                 Text(text = "Google",
                     fontFamily = Poppins,
-                    color = RegisterSecondaryColor
+                    color = SecondaryColor
                 )
             }
         }
@@ -334,7 +334,7 @@ fun SocialMediaSignInButtons() {
                 Spacer(modifier = Modifier.width(10.dp))
                 Text(text = "Facebook",
                     fontFamily = Poppins,
-                    color = RegisterSecondaryColor
+                    color = SecondaryColor
                 )
             }
         }
