@@ -22,9 +22,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackCompose4Theme {
                 Surface(color = BackgroundColor, modifier = Modifier.fillMaxSize()) {
-//LoginScreen()
-//                    RegisterScreen()
-//                    ForgotPasswordScreen()
+                      // LoginScreen()
+                    //   RegisterScreen()
+                      // ForgotPasswordScreen()
                     SettingsScreen()
                 }
             }
