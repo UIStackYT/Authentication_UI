@@ -5,7 +5,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-import com.google.accompanist.systemuicontroller.rememberSystemUiController
+
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
@@ -35,10 +35,6 @@ fun JetpackCompose4Theme(
 ) {
     val colors = LightColorPalette
 
-    rememberSystemUiController().setSystemBarsColor(
-        color = BackgroundColor,
-        darkIcons = false
-    )
 
     MaterialTheme(
         colors = colors,
